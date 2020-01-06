@@ -1,0 +1,17 @@
+.event {
+  min-height: 400px;
+}
+
+.event .avatar {
+  background-color: var(--block-bgcolor-accent);
+  margin-right: var(--gap-xs);
+}
+
+.event__preview {
+  display: flex;
+  margin-bottom: var(--gap-xxl);
+}
+
+.event__title {
+  margin-bottom: var(--gap-s);
+}

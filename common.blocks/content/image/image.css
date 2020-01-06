@@ -1,0 +1,8 @@
+.image {
+  width: 100%;
+  border: 3px solid var(--block-bgcolor-border);
+  background-color: var(--block-bgcolor-default);
+  background-image: var(--image-placeholder);
+  background-repeat: no-repeat;
+  background-position: center;
+}

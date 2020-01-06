@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+  .grid_col-gap_two-thirds .grid__fraction:not(:last-child) {
+    margin-right: calc(var(--gap) * 2 / 3);
+  }
+}

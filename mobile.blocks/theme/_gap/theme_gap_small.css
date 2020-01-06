@@ -1,0 +1,5 @@
+@media (max-width: 1023px) {
+  .theme_gap_small {
+    --gap: var(--gap-s);
+  }
+}

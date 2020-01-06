@@ -1,0 +1,16 @@
+.layout__container:last-child .grid_row-gap_half {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.layout__container:last-child .grid_row-gap_full {
+  margin-bottom: 0;
+}
+
+.layout__container:first-child .grid_row-gap_full {
+  margin-top: 0;
+}
+
+.layout__container {
+  background-color: var(--block-bgcolor-default);
+}

@@ -1,0 +1,21 @@
+@media (min-width: 1024px) {
+  .grid_m-columns_10 .grid__fraction_m-col_2 {
+    width: calc(100% / 5);
+  }
+
+  .grid_m-columns_10 .grid__fraction_m-col_3 {
+    width: calc(100% * 3 / 10);
+  }
+
+  .grid_m-columns_10 .grid__fraction_m-col_4 {
+    width: calc(100% * 4 / 10);
+  }
+
+  .grid_m-columns_10 .grid__fraction_m-col_5 {
+    width: calc(100% / 2);
+  }
+
+  .grid_m-columns_10 .grid__fraction_m-col_8 {
+    width: calc(100% * 4 / 5);
+  }
+}

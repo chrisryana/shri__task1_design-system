@@ -1,0 +1,4 @@
+.form__item_space-h_xl {
+  padding-right: var(--gap-xl);
+  padding-left: var(--gap-xl);
+}

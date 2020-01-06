@@ -1,0 +1,17 @@
+.onoffswitch {
+  width: 97px;
+  height: 32px;
+  border: 2px solid var(--block-bgcolor-border);
+  padding: 2px;
+  cursor: pointer;
+}
+
+.onoffswitch_checked .onoffswitch__button {
+  margin-left: auto;
+}
+
+.onoffswitch__button {
+  width: 24px;
+  height: 24px;
+  background-color: var(--block-bgcolor-border);
+}

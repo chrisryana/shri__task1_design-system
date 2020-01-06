@@ -1,0 +1,3 @@
+.text_view_primary .text__word::after {
+  background-color: var(--text-color-primary);
+}

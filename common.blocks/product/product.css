@@ -1,0 +1,12 @@
+.product {
+  min-height: 300px;
+  border: 3px solid var(--block-bgcolor-border);
+}
+
+.product .image {
+  height: 160px;
+}
+
+.product__title {
+  margin-bottom: 45px;
+}

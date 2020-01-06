@@ -1,0 +1,37 @@
+/* .text_size_m {
+  height: var(--text-lineheight-m);
+  display: flex;
+  align-items: center;
+} */
+
+/* .text_size_m .text__word {
+  height: 10px;
+  margin-bottom: calc(var(--text-lineheight-m) - var(--text-height-m));
+} */
+
+.text_size_m .text__word {
+  height: var(--text-lineheight-m);
+  position: relative;
+  /* margin-bottom: calc(var(--text-lineheight-m) - var(--text-height-m)); */
+}
+
+.text_size_m .text__word::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: var(--text-height-m);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text_size_m .text__word_width_s {
+  width: 24px;
+}
+
+.text_size_m .text__word_width_m {
+  width: 56px;
+}
+
+.text_size_m .text__word_width_l {
+  width: 114px;
+}

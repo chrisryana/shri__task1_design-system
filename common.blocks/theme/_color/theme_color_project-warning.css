@@ -1,0 +1,12 @@
+.theme_color_project-warning {
+  /* Значения фонов блоков */
+  --block-bgcolor-default: #ff3333;
+  --block-bgcolor-accent: #ffffff;
+  --block-bgcolor-border: #ff3333;
+
+  /* Значения состояний текста */
+  --text-color-primary: #ffffff;
+  --text-color-secondary: rgba(255, 255, 255, 0.6);
+  --text-color-ghost: rgba(255, 255, 255, 0.3);
+  --text-color-link: #ffffff;
+}

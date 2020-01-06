@@ -1,0 +1,7 @@
+.form__control {
+  flex-grow: 1;
+}
+
+.form__control .button {
+  margin-left: auto;
+}

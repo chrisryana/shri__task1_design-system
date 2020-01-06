@@ -1,0 +1,37 @@
+/* .text_size_xl {
+  height: var(--text-lineheight-xl);
+  display: flex;
+  align-items: center;
+} */
+
+/* .text_size_xl .text__word {
+  height: 13px;
+  margin-bottom: calc(var(--text-lineheight-xl) - var(--text-height-xl));
+} */
+
+.text_size_xl .text__word {
+  height: var(--text-lineheight-xl);
+  position: relative;
+  /* margin-bottom: calc(var(--text-lineheight-xl) - var(--text-height-xl)); */
+}
+
+.text_size_xl .text__word::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: var(--text-height-xl);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text_size_xl .text__word_width_s {
+  width: 32px;
+}
+
+.text_size_xl .text__word_width_m {
+  width: 74px;
+}
+
+.text_size_xl .text__word_width_l {
+  width: 154px;
+}

@@ -1,0 +1,4 @@
+.button {
+  background-color: var(--block-bgcolor-accent);
+  width: 200px;
+}

@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+  .theme_gap_small {
+    --gap: var(--gap-xl);
+  }
+}

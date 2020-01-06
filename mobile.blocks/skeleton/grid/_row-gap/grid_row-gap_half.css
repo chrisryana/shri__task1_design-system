@@ -1,0 +1,9 @@
+@media (max-width: 1023px) {
+  .grid_row-gap_half {
+    margin-bottom: calc(var(--gap) / 2);
+  }
+
+  .grid_row-gap_half .grid__fraction:not(:last-child) {
+    margin-bottom: calc(var(--gap) / 2);
+  }
+}

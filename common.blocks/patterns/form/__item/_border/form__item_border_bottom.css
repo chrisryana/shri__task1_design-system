@@ -1,0 +1,7 @@
+.form__item_border_bottom {
+  border-bottom: 3px solid var(--block-bgcolor-border);
+}
+
+.form__item_border_bottom:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,3 @@
+.text_view_ghost .text__word::after {
+  background-color: var(--text-color-ghost);
+}

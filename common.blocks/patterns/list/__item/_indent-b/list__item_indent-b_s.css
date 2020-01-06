@@ -1,0 +1,3 @@
+.list__item_indent-b_s:not(:last-child) {
+  margin-bottom: var(--gap-s);
+}
