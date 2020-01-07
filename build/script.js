@@ -1,4 +1,8 @@
-document.querySelector('body').addEventListener('click', eventParser);
+var body = document.querySelector('body');
+
+if (body) {
+  body.addEventListener('click', eventParser);
+}
 
 function eventParser(evt) {
   evt.preventDefault();
